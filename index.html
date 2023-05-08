@@ -1,12 +1,124 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=<device-width>, initial-scale=1.0">
-    <title>Document</title>
-</head>
-<body>
-    <h1>Hello Coursera</h1>
-</body>
+<!DOCTYPE HTML lang="en">
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="author" content="Satya">
+        <!-- Load an icon library to show a hamburger menu (bars) on small screens -->
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <link rel="icon" type="image/x-icon" href="\images\pfp.jpg">
+        <link rel="stylesheet" href="style.css">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Satya's Portfolio</title>
+        <script src="main.js"></script>
+    </head>
+    <body>
+        <div class="flex-container">
+            <div id="icon_image" class="flex-child">
+                <img src="\images\pfp-logo.png" alt="profile">
+            </div>
+            <div id="centerText" class="flex-child">
+                <h1>Welcome to Satya's Portfolio</h1>
+            </div>
+        </div>
+        <div class="nav-bar" id="top-nav">
+            <a href="#about" class="active">About</a>
+            <a href="#work">Work</a>
+            <a href="#skills">Skills</a>
+            <a href="#Certifications">Certificates</a>
+            <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+                <i class="fa fa-bars"></i>
+            </a>
+        </div>
+        <section id="welcome">
+            <div id="intro">
+                 <p>
+                    <h3>Hi</h3>
+                    <h2>I am Satya</h2>
+                    <h4>ISTQB® Foundation Level Certified Engineer at LTIMindtree.</h4>
+                </p>
+            </div>  
+        </section>
+
+        <section id="about">
+            <h1>About :</h1>
+            <p>
+                There is a lot I need to write about myself, It will take some time but let me finish the styling and complete the information about me.
+            </p>
+            
+        </section>
+        <section id="work">
+            <h1>Work Experience :</h1>
+            <div class="work-exp">
+                <h3>Analyst</h3>
+                <h4>Capgemini</h4>
+                <h5>Oct 2021 - Jan 2022</h5>
+
+                <h3>Trainee</h3>
+                <h4>Mindtree</h4>
+                <h5>Feb 2022 - Jul 2022</h5>
+
+                <h3>Engineer</h3>
+                <h4>Mindtree</h4>
+                <h5>Jul 2022 - Nov 2022</h5>
+                
+                <h3>Engineer</h3>
+                <h4>LTIMindtree</h4>
+                <h5>Nov 2022 - Present</h5>
+            </div>
+            
+        </section>
+        <section id="skills">
+            <h1>Skills :</h1>
+            <ul>
+                <li>Manual Testing</li>
+                <li>Selenium</li>
+                <li>Java Programming</li>
+                <li>Oracle SQL</li>
+                <li>HTML5</li>
+                <li>CSS3</li>
+                <li>Software Testing</li>
+            </ul>
+
+        </section>
+        <section id="Certifications">
+            <h1>Certifications:</h1>
+            <h5>Company Recognition:</h5>
+            <div class="comp-cert">
+                <img src="images/spoton-a-team.jpg" alt="spoton-a-team">
+                <img src="images/spoton_A-Team_Expert_Thinking.jpg" alt="spoton-a-team">
+            </div>
+            <h5>Learning:</h5>
+            <div class="learning-cert">
+                <img src="images/ISTQB.jfif" alt="ISTQB">
+                <img src="images/courserahtml5.jfif" alt="courserahtml5">
+                <img src="images/apitestautomationwithsoapui.png" alt="apitestautomationwithsoapui">
+                <img src="images/buildingprofessionalrelationships.png" alt="buildingprofessionalrelationships">
+                <img src="images/effectivelistening.png" alt="effectivelistening">
+                <img src="images/excelessentialtraining.png" alt="excelessentialtraining">
+                <img src="images/fundamentalsofdigitalmarketing.jfif" alt="fundamentalsofdigitalmarketing">
+                <img src="images/generalenglish.jfif" alt="generalenglish">
+                <img src="images/hackerrankjava.jfif" alt="hackerrankjava">
+                <img src="images/javacoursera.jfif" alt="javacoursera">
+                <img src="images/javadatastructures.png" alt="javadatastructures">
+                <img src="images/hackerranksql.jfif" alt="hackerranksql">
+                <img src="images/learningselenium.png" alt="learningselenium">
+                <img src="images/leadershipmindsets.png" alt="leadershipmindsets">
+                <img src="images/learningjenkins.png" alt="learningjenkins">
+                <img src="images/networkingfundamentals.png" alt="networkingfundamentals">
+                <img src="images/oraclesql.jfif" alt="oraclesql">
+                <img src="images/postmanessentialtraining.png" alt="postmanessentialtraining">
+                <img src="images/professionalemails.jfif" alt="professionalemails">
+                <img src="images/redhatlinuxcoursera.jfif" alt="redhatlinuxcoursera">
+                <img src="images/understandingmanualtesting.png" alt="understandingmanualtesting">
+                <img src="images/agiletesting.png" alt="agiletesting">
+                <img src="images/seleniumessentialtraining.png" alt="seleniumessentialtraining">
+                <img src="images/wellbeingintheworkspace.png" alt="wellbeingintheworkspace">
+            </div>
+        </section>
+
+        <div id="resume-download">
+            <a href="\files\resume.pdf" download>Click here to download the resume</a>
+        </div>
+
+    </body>
 </html>
